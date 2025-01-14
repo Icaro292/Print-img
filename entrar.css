@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 25vh;
+}
+
+img {
+    height: 100px;
+    margin-bottom: 10vh;
+}
+
+.voltar {
+    font-size: 15px;
+    position: absolute;
+    left: 0;
+    top: 35%;
+    transform: translateY(-50%);
+    margin-left: 5vh;
+    height: 5vh;
+    width: 10vh;
+}
+
+.corpo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    justify-items: center;
+    margin-top: 2vh;
+}
+
+.texto-1 {
+    margin-bottom: 2vh;
+}
+
+.texto-2 {
+    color: #cacaca;
+}
+
+.texto {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav {
+    display: grid;
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+}
+
+nav input {
+    margin-bottom: 5vh;
+    width: 75vh;
+    height: 6vh;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: #cacaca;
+    border-style: solid;
+}
+
+button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    height: 6vh;
+    border-radius: 5px;
+    background-color: #38b6ff;
+    border-style: none;
+    cursor: pointer;
+}
+
+.crie-sua-conta {
+    color: #38b6ff;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        padding-top: 5vh;
+    }
+
+    img {
+        height: 80px;
+    }
+
+    .voltar {
+        font-size: 12px;
+        margin-left: 4vh;
+        height: 5vh;
+        width: 8vh;
+    }
+
+    .corpo {
+        margin-top: 5;
+        padding: 0 5vw;
+    }
+
+    .texto {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    nav input, button {
+        width: 100%;
+        max-width: none;
+    }
+}
