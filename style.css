@@ -76,7 +76,7 @@ button{
     width: calc(33.33% - 20px); 
     height: 200px;
     background-size: cover;
-    background-position: center;
+    background-position:top;
     color: white;
     font-size: 40px;
     font-weight: bold;
@@ -90,15 +90,15 @@ button{
 }
 
 .img1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(img/IMG1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(img/IMG1.jpeg);
 }
 
 .img2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(img/IMG2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(img/IMG2.jpeg);
 }
 
 .img3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(img/IMG3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(img/IMG3.jpeg);
 }
 
    
